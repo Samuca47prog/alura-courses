@@ -87,3 +87,64 @@ footer {
 .copyright {
     color: white;
 }
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+form {
+    margin: 2.5em 0;
+}
+
+form label,
+form legend {
+    display: block;
+    margin: 0 0 0.5em;
+    font-size: 1.5em;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 1.4em;
+    padding: 0.8em 1.5em;
+    width: 30%;
+}
+
+.checkbox {
+    margin: 1.4em 0;
+}
+
+.enviar {
+    width: 30%;
+    padding: 1em 3em;
+    font-size: 1.5em;
+    font-weight: bold;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.6s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 3em;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, 
+th {
+    border: 1px solid black;
+    padding: .5em 1em;
+}
