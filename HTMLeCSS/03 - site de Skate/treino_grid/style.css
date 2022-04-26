@@ -24,6 +24,7 @@
     min-height: 50px;
 
     grid-column: span 4;
+    grid-row: 4;
 }
 
 .lateral {
