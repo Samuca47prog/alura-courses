@@ -7,10 +7,20 @@
 
     text-align: center;
     color: var(--branco);
-    font-family: 'Montserrat', sans-serif;
+    font-family: inherit;
     font-weight: 700;
 
     box-shadow: 10px 10px 30px #FFCB473D;
 
     border: none;
+}
+
+.botao--alternativo {
+    color: var(--amarelo);
+
+    background-color: unset;
+
+    box-shadow: none;
+
+    border: 1px solid var(--amarelo);
 }
