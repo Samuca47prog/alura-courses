@@ -1,0 +1,49 @@
+
+
+nav {
+    margin: 1rem 3rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__empresa {
+    display: flex;
+    align-items: center;
+
+    font-family: inter;
+    font-size: 1.15rem;
+}
+
+.nav__empresa--logo {
+    padding-right: 0.2rem;
+}
+
+.nav__menu {
+    display: flex;
+}
+
+.nav__menu--item {
+    margin: 0 0.5rem;
+}
+
+.nav__cadastro {
+    display: flex;
+    align-items: center;
+}
+
+.nav__cadastro p,
+.nav__cadastro--cadastrar {
+    margin: 0 0.5rem;
+}
+
+.nav__cadastro--cadastrar {
+    color: white;
+
+    padding: 0.6rem 1.15rem;
+
+    background-color: var(--vermelho);
+
+    border-radius: 5px;
+}

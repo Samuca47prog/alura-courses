@@ -1,0 +1,17 @@
+:root {
+    --cinza-titulo: #101828;
+    --cinza-texto: #667085;
+    --vermelho: #8E2424;
+}
+
+.container {
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+.texto-simples {
+    color: var(--cinza-texto);
+    font-size: 1rem;
+    font-family: inter;
+    font-weight: 500;
+}
