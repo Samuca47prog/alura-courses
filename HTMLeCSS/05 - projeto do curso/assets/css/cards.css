@@ -1,0 +1,30 @@
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards__card {
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    width: 20%;
+}
+
+.cards__metrica {
+    font-family: inter;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--vermelho);
+
+    margin-bottom: 1rem;
+}
+
+div.cards__card h3 {
+    color: var(--cinza-titulo);
+
+    margin-bottom: 0.7rem;
+}
+
+.cards__paragrafo {
+    line-height: 1.375rem;
+}
