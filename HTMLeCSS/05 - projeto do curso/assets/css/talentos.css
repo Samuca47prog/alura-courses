@@ -1,0 +1,24 @@
+.talentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 7rem;
+}
+
+.texto-botao {
+    padding: 0.5rem 1rem;
+
+    color: var(--vermelho);
+    background-color: rgba(165, 42, 42, 0.250);
+    border-radius: 5px;
+
+}
+
+section.talentos h2.titulo-1 {
+    font-size: 1.7rem;
+}
+
+section.talentos p:nth-child(3) {
+    margin-bottom: 3.5rem;
+}
