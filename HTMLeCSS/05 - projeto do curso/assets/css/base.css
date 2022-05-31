@@ -3,16 +3,14 @@
     --cinza-texto: #667085;
     --vermelho: #8E2424;
     --cinza-borda: #EAECF0;
+
+    color: var(--cinza-texto);
+    font-size: 1rem;
+    font-family: inter;
+    font-weight: 500;
 }
 
 .container {
     margin-left: 7rem;
     margin-right: 7rem;
-}
-
-.texto-simples {
-    color: var(--cinza-texto);
-    font-size: 1rem;
-    font-family: inter;
-    font-weight: 500;
 }
